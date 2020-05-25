@@ -47,8 +47,8 @@
             </select>
           </label>
           <div class="form-actions">
-            <input type="submit" value="SAVE" name="submit" />
-            <input type="submit" value="DELETE" name="submit" />
+            <input type="submit" value="SAVE" name="submit" class="add-button" />
+            <input type="submit" value="DELETE" name="submit" class="add-button" />
           </div>
         </form>
       </c:if>
