@@ -7,7 +7,7 @@
   version="4.0"
 >
   <display-name>AIT Library</display-name>
-  
+
   <context-param>
     <param-name>JDBC-URL</param-name>
     <param-value>jdbc:mysql://localhost:3306/library?serverTimezone=EST</param-value>
@@ -18,14 +18,14 @@
   </context-param>
   <context-param>
     <param-name>JDBC-PASSWORD</param-name>
-    <param-value>Dr_2048^</param-value>
+    <param-value>passw0rd</param-value>
   </context-param>
-  
+
   <servlet>
     <servlet-name>Controller</servlet-name>
     <servlet-class>application.Controller</servlet-class>
   </servlet>
-  
+
   <servlet-mapping>
     <servlet-name>Controller</servlet-name>
     <url-pattern>/</url-pattern>
